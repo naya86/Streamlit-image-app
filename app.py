@@ -3,12 +3,12 @@ from PIL import Image, ImageFilter, ImageEnhance
 import os     
 from datetime import datetime  
 
-##깃 연동.
+
 def load_image(image_file) :          
     img = Image.open(image_file)
     return img
 
-# ksljklsdfgklasjflkasfklasdjklfajsklfjasklfasjklfkasj
+
 ## 디렉토리와 이미지를 주면, 해당 디렉토리에 이 이미지를 저장하는함수
 def save_uploaded_file(directory, img) :
     # 1.디렉토리가 있는지 확인하여, 없으면 만든다.
